@@ -1,3 +1,7 @@
 'use strict';
 
-console.log(document.getElementById('button'));
+var buttonElement = document.getElementById('button');
+var beginQuiz = function(){console.log ('Hello');
+};
+
+buttonElement.addEventListener('click', beginQuiz);
